@@ -457,7 +457,7 @@ ul.sub-menu {
 }
 
 .home-two #home-banner {
-    background-image: url(../images/bg/korey-brown.jpg);
+    background-image: url(../images/bg/korey-brown.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -906,38 +906,33 @@ img.mfp-img {
     color: #87c05e;
 }
 
-.contact-section li:hover .icons,
-.contact-info:hover .icons {
-    -webkit-transform:rotate(360deg) ;
-    -moz-transform:rotate(360deg) ;
-    -ms-transform:rotate(360deg) ;
-    -o-transform:rotate(360deg) ;
-    transform:rotate(360deg) ;
-}
 
-.contact-section .icons,
-.contact-info .icons {
-    -webkit-transition: all 800ms;
-    -moz-transition: all 800ms;
-    -ms-transition: all 800ms;
-    -o-transition: all 800ms;
-    transition: all 800ms;
-}
 
 .contact-section .icons {
-    color: #f7941d;
+    color: rgb(45,48,56);
 }
 
 .contact-section .icons1 {
-    color: #ed1c24;
+    color: rgb(45, 48, 56);
+}
+.contact-section .icons1 {
+    color: rgb(45, 48, 56);
+}
+.contact-section .icons1 {
+    color: rgb(45, 48, 56);
+}
+.contact-section .icons1 {
+    color: rgb(45, 48, 56);
+}
+.contact-section .icons1 {
+    color: rgb(45, 48, 56);
+}
+.contact-section .icons1 {
+    color: black;
 }
 
 .contact-section .icons2{
-    color: #b90162;
-}
-
-.contact-section .icons3 {
-    color: #3c70b4;
+    color: black;
 }
 
 .contact-section .social li {
@@ -1000,7 +995,7 @@ img.mfp-img {
 }
 
 .contact .icons i {
-    color: #87c05e;
+    color: #417DB9;
 }
 
 .contact .form-group {
@@ -1022,7 +1017,7 @@ img.mfp-img {
 }
 
 .contact .form-control:focus {
-    border-color: #87c05e;
+    border-color: #417DB9;
 }
 
 .contact textarea.form-control {
@@ -1391,7 +1386,8 @@ img.mfp-img {
 
 #footer {
     color: #fff;
-    background-color: #87c05e;
+    background-color: #3c70b4;
+;
     padding-top: 22px;
     padding-bottom: 10px;
 }
@@ -1401,7 +1397,7 @@ img.mfp-img {
 }
 
 #footer a:hover {
-    color: #6bff00;
+    color: black;
 }
 
 /* Main Blog */
@@ -1593,4 +1589,4 @@ a, #contact-section li a i:hover,
     font-weight: normal;
     font-style: normal;
 
-} 
+}
